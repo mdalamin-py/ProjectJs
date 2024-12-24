@@ -1,0 +1,39 @@
+.tabs_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+.tabs_list{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    
+}
+
+.tabs_list li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    height: 35px;
+    line-height: 28px;
+    padding: 10px 5px;
+    border: 1px solid #dae0e7;
+    background: #198754;
+    color: white;
+    border-radius: 8px 8px 0px 0px;
+    cursor: pointer;
+}
+
+.tabs_list li:hover{
+    background-color: chocolate;
+    color: white;
+}
+
+.tabs_list li.active{
+    background-color: slateblue;
+    color: white;
+}

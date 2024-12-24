@@ -1,0 +1,37 @@
+.container{
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3px;
+  margin-top: 30px;
+}
+
+.app_title{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.alert{
+  width: 100%;
+  background-color: rgb(200, 218, 200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: 1px solid rgb(143, 216, 143);
+}
+
+.success{
+  color: green;
+  font-size: 15px;
+}

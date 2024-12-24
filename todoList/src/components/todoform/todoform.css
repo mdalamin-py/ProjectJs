@@ -1,0 +1,50 @@
+.form_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_container form {
+    width: 100%;
+}
+
+.form_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_input_row {
+    width: 100%;
+}
+
+.task_input {
+    width: 100%;
+    height: 40px;
+    padding: 0 5px;
+    outline: transparent;
+    font-size: 16px;
+    color: #666;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.invalid {
+    border: 1px solid #f72323;
+}
+
+.valid {
+    border: 1px solid #ccc;
+}
+
+.add_button {
+    border: none;
+    padding: 5px 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #198754;
+    color: white;
+    height: 40px;
+    cursor: pointer;
+}
